@@ -123,6 +123,7 @@ resource "aws_security_group" "backend" {
   }
 }
 
+#create key pair in the name "key" in the project directory.
 resource "aws_key_pair" "mykey" {
     key_name   = "${var.project_name}-${var.project_env}"
     public_key = file("key.pub")
