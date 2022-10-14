@@ -3,3 +3,5 @@ This is a document for creating infra and deploying Wordpress in it using terraf
 
 Here we are creating 3 instances - bastion,frontend and backend. Installing Wordpress on frontend and mariadb on backend instance.
 We can only access frondend and backend instances by sshing to bastion server.
+
+After running this code, we will be able to see the wp installation page.
